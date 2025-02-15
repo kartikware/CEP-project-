@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Needy Connect - Report Needy Individuals</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Report CSS -->
+    <link rel="stylesheet" href="report-styles.css">
+    <!-- Shared CSS -->
+    <link rel="stylesheet" href="shared-styles.css">
+
+</head>
+<body>
+    <header class="bg-success text-white py-4">
+        <div class="container">
+            <h1 class="display-4">Needy Connect</h1>
+            <p class="lead">Report Needy Individuals to NGOs</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="report-section" class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title text-success">Report a Needy Individual</h2>
+                <form id="report-form">
+                    <!-- Reporter's Details -->
+                    <div class="mb-3">
+                        <label for="reporter-name" class="form-label">Your Name:</label>
+                        <input type="text" id="reporter-name" name="reporter-name" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="reporter-contact" class="form-label">Your Contact Number:</label>
+                        <input type="text" id="reporter-contact" name="reporter-contact" class="form-control" required>
+                    </div>
+
+                    <!-- Needy Individual's Details -->
+                    <div class="mb-3">
+                        <label for="needy-location" class="form-label">Location of Needy Individual:</label>
+                        <input type="text" id="needy-location" name="needy-location" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="needy-description" class="form-label">Describe the Situation:</label>
+                        <textarea id="needy-description" name="needy-description" rows="4" class="form-control" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Submit Report</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2023 Needy Connect. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <!-- Report page content -->
+    <script src="report-script.js"></script>
+    <!-- Shared JavaScript -->
+    <script src="shared-script.js"></script>
+</body>
+</html>
