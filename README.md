@@ -17,6 +17,7 @@ A platform to connect NGOs with needy individuals by allowing concerned citizens
 - `assets/`: Folder for images, icons, etc.
 
 ## How to Contribute
+(# best way i just make just copy code here and past on local, change and paste changes here but make sure of errorlessness)
 
 1. Clone the repository:
    ```bash
